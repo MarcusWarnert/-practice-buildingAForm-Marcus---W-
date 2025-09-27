@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <form action="">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Please enter your full name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="feedbackCategory">Feedback Category:</label>
+                <select id="feedbackCategory" name="feedbackCategory">
+                    <option value="av">Advice</option>
+                    <option value="it">Insult</option>
+                </select>
+
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <label for="email">
+                    <input type="radio" id="email" name="contact" value="email">
+            Email
+                </label>
+                <label for="phone">
+                    <input type="radio" id="phone" name="contact" value="phone">
+            Phone
+                </label>
+                </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Interests:</legend>
+                <label for="Scooby Doo?">
+                    <input type="checkbox" id="coding" name="interests" value="coding"> Coding
+                </label>
+                <label for="Trees I guess?">
+                    <input type="checkbox" id="design" name="interests" value="design"> Design
+                </label>
+                </fieldset>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Let us know what you're thinking"></textarea>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+    </header>
+</body>
+</html>
